@@ -1,25 +1,9 @@
-# NestJS REST API boilerplate 🇺🇦
+# NestJS REST API boilerplate
+## Description 
 
-![github action status](https://github.com/brocoders/nestjs-boilerplate/actions/workflows/docker-e2e.yml/badge.svg)
-[![renovate](https://img.shields.io/badge/renovate-enabled-%231A1F6C?logo=renovatebot)](https://app.renovatebot.com/dashboard)
+NestJS REST API boilerplate
 
-## Description <!-- omit in toc -->
-
-NestJS REST API boilerplate for typical project
-
-[Full documentation here](https://github.com/brocoders/nestjs-boilerplate/blob/main/docs/readme.md)
-
-## Table of Contents <!-- omit in toc -->
-
-- [Features](#features)
-- [Quick run](#quick-run)
-- [Comfortable development](#comfortable-development)
-- [Links](#links)
-- [Automatic update of dependencies](#automatic-update-of-dependencies)
-- [Database utils](#database-utils)
-- [Tests](#tests)
-- [Tests in Docker](#tests-in-docker)
-- [Test benchmarking](#test-benchmarking)
+## Table of Contents 
 
 ## Features
 
@@ -40,8 +24,8 @@ NestJS REST API boilerplate for typical project
 ## Quick run
 
 ```bash
-git clone --depth 1 https://github.com/brocoders/nestjs-boilerplate.git my-app
-cd my-app/
+git clone --depth 1 https://github.com/theabdul129/nestjs-boilerplate.git
+cd nestjs-boilerplate/
 cp env-example .env
 docker compose up -d
 ```
@@ -55,7 +39,7 @@ docker compose logs
 ## Comfortable development
 
 ```bash
-git clone --depth 1 https://github.com/brocoders/nestjs-boilerplate.git my-app
+git clone --depth 1 https://github.com/theabdul129/nestjs-boilerplate.git
 cd my-app/
 cp env-example .env
 ```
@@ -85,10 +69,6 @@ npm run start:dev
 - Swagger: <http://localhost:3000/docs>
 - Adminer (client for DB): <http://localhost:8080>
 - Maildev: <http://localhost:1080>
-
-## Automatic update of dependencies
-
-If you want to automatically update dependencies, you can connect [Renovate](https://github.com/marketplace/renovate) for your project.
 
 ## Database utils
 
