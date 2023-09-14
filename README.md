@@ -40,7 +40,7 @@ docker compose logs
 
 ```bash
 git clone --depth 1 https://github.com/theabdul129/nestjs-boilerplate.git
-cd my-app/
+cd nestjs-boilerplate/
 cp env-example .env
 ```
 
